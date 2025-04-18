@@ -2,7 +2,7 @@
 
 A Nextflow pipeline for downloading, cleaning, assembling, and annotating raw paired-end Illumina reads. This workflow is optimized for bacterial genome annotation with Prokka.
 
-This pipeline was created for the Workflow exercise in **BIOL7210**.
+This pipeline was created for the "Workflow" exercise in **BIOL7210**.
 
 ## 📂 Test Data
 
