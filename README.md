@@ -13,8 +13,8 @@ This pipeline comes with a small sample dataset (located in Nextflow_Genomics_Pi
 Test data was generated using the following commands:
 
 ```bash
-gunzip -c SRR2584863_1.fastq.gz | head -n 4000 | gzip > test_R1.fastq.gz
-gunzip -c SRR2584863_2.fastq.gz | head -n 4000 | gzip > test_R2.fastq.gz
+gunzip -c SRR2584863_1.fastq.gz | head -n 40000 | gzip > test_R1.fastq.gz
+gunzip -c SRR2584863_2.fastq.gz | head -n 40000 | gzip > test_R2.fastq.gz
 ```
 
 ## 🚀 Pipeline Features
