@@ -19,12 +19,13 @@ gunzip -c SRR2584863_2.fastq.gz | head -n 40000 | gzip > test_R2.fastq.gz
 
 ## 🚀 Pipeline Features
 
-- 📥 Auto-download reads from SRA or use paired datasets in the format *_R{1,2}.fastq.gz located in the "/data" folder
+- 📥 Auto-download reads from SRA or use paired datasets in the format *_R{1,2}.fastq.gz (located in the "/data" folder)
 - 🧼 Quality filtering with `fastp`
 - 🧬 Assembly with `SPAdes` (ran in parallel with `SeqKit`)
 - 🧬 Annotation with `Prokka`
 - 📊 Sequence length filtering with `SeqKit` (ran in parallel with `SPAdes`)
 
+![Workflow Diagram](workflow_diagram/workflow_diagram.png)
 
 ## 🛠️ Software Requirements
 
