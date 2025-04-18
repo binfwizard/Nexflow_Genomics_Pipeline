@@ -46,8 +46,9 @@ cd Nexflow_Genomics_Pipeline
 Next, create a Conda environment (using Conda 24.3.0) and install Nextflow:
 
 ```bash
-conda create -n nf -c bioconda -c conda-forge conda=24.3.0 nextflow -y
+conda create -n nf -c bioconda nextflow -y
 conda activate nf
+conda install conda=24.3.0
 ```
 
 Finally, run the pipeline on the test dataset in one command:
