@@ -33,7 +33,7 @@ To run this pipeline, you will need:
 
 - **Nextflow**: `v24.10.5`
 - **Conda**: `v24.3.0` ⚠️ Due to a recent bug in newer Conda versions (specifically `v25.x`), a downgraded, more stable version of Conda will be used for this pipeline
-- **Operating System**: macOS (tested on macOS 14 Sonoma)
+- **Operating System**: macOS (tested on macOS Sonoma `14.6.1`)
 - **Architecture**: x86_64
 
 ## 🏃‍♀️💨 Running the Pipeline 
