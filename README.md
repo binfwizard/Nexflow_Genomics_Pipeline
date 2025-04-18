@@ -28,7 +28,7 @@ gunzip -c SRR2584863_2.fastq.gz | head -n 40000 | gzip > test_R2.fastq.gz
 
 ## 🛠️ Software Requirements
 
-To run this pipeline, install:
+To run this pipeline, you will need:
 
 - **Nextflow**: `v24.10.5`
 - **Conda**: `v24.3.0` ⚠️ Due to a recent bug in newer Conda versions (specifically `v25.x`), a downgraded, more stable version of Conda will be used for this pipeline
