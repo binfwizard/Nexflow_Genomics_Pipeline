@@ -10,6 +10,13 @@ This pipeline comes with a small sample dataset (located in Nextflow_Genomics_Pi
 - **Sample**: `SRR2584863`, an *E. coli* isolate often used in tutorials 
 - **Data Source**: [NCBI SRA](https://www.ncbi.nlm.nih.gov/sra/SRR2584863)
 
+Test data was generated using the following commands:
+
+```bash
+gunzip -c SRR2584863_1.fastq.gz | head -n 4000 | gzip > test_R1.fastq.gz
+gunzip -c SRR2584863_2.fastq.gz | head -n 4000 | gzip > test_R2.fastq.gz
+```
+
 ## 🚀 Pipeline Features
 
 - 📥 Auto-download reads from SRA (can be specified in run command)
