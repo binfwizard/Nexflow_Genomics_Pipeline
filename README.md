@@ -56,7 +56,7 @@ Finally, run the pipeline on the test dataset in one command:
 nextflow run nextflow_pipeline.nf -profile conda --threads 8
 ```
 
-Alternatively, the pipeline can automatically download SRA reads using the `--srr_id` flag: 
+Alternatively, the pipeline can automatically download and process SRA reads using the `--srr_id` flag: 
 
 ```bash
 nextflow run nextflow_pipeline.nf -profile conda --threads 8 --srr_id "SRR2584863"
