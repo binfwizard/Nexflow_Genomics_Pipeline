@@ -31,7 +31,7 @@ gunzip -c SRR2584863_2.fastq.gz | head -n 4000 | gzip > test_R2.fastq.gz
 To run this pipeline, install:
 
 - **Nextflow**: `v24.10.5`
-- **Conda**: `25.1.1` 
+- **Conda**: `24.3.0` ⚠️ Due to a recent bug in newer Conda versions (specifically 25.x), a downgraded, more stable version of Conda will be used for this pipeline
 - **Operating System**: macOS (tested on macOS 14 Sonoma)
 - **Architecture**: x86_64
 
@@ -42,11 +42,12 @@ First, clone the git repository with the following command:
 git clone https://github.com/binfwizard/Nexflow_Genomics_Pipeline.git
 cd Nexflow_Genomics_Pipeline
 ```
-Next, create a Conda environment and install Nextflow:
+Next, create a Conda environment (using Conda 24.3.0) and install Nextflow:
 
 ```bash
 conda create -n nf -c bioconda nextflow -y
 conda activate nf
+conda install conda=24.3.0
 ```
 
 Finally, run the pipeline on the test dataset in one command:
