@@ -35,7 +35,7 @@ First, clone the git repository with the following command:
 git clone https://github.com/binfwizard/Nexflow_Genomics_Pipeline.git
 cd Nextflow_Genomics_Pipeline
 ```
-Next, create the necessary Conda environment:
+Next, create a Conda environment and install Nextflow:
 
 ```bash
 conda create -n nf -c bioconda nextflow -y
@@ -55,7 +55,7 @@ nextflow run nextflow_pipeline.nf -profile conda --threads 8 --srr_id "SRR258486
 ```
 
 ## 🔗 Dependencies
-All of the following tools are installed automatically via Bioconda:
+All of the following tools will be automatically installed via Bioconda:
 - **fastp**: `v0.23.4`
 - **SPAdes**: `v3.15.5`
 - **SeqKit**: `v2.6.1`
