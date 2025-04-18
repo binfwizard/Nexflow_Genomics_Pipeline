@@ -12,7 +12,7 @@ This pipeline comes with a small sample dataset (located in Nextflow_Genomics_Pi
 
 ## 🚀 Pipeline Features
 
-- 📥 Auto-download reads from SRA (specified in run command)
+- 📥 Auto-download reads from SRA (can be specified in run command)
 - 🧼 Quality filtering with `fastp`
 - 🧬 Assembly with `SPAdes`
 - 🧬 Annotation with `Prokka`
