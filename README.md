@@ -40,7 +40,7 @@ First, clone the git repository with the following command:
 
 ```bash
 git clone https://github.com/binfwizard/Nexflow_Genomics_Pipeline.git
-cd Nextflow_Genomics_Pipeline
+cd Nexflow_Genomics_Pipeline
 ```
 Next, create a Conda environment and install Nextflow:
 
